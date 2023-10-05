@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+
 //css
 import './css/App.css';
 import './css/Header.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" backgroundImage="url(/image.png)" backgroundRepeat="repeat-y">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={require("./images/header-logo.png")} className="header-logo" alt="Noisserpmo logo" />
+          <p>
+            Edit <code>src/App.js</code> and save.
+          </p>
       </header>
+      <section>
+      </section>
     </div>
   );
 }
