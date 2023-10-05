@@ -3,7 +3,33 @@ header {
     flex-direction: row;
     align-items: center;
     align-content: center;
-    height: 2em;
+    justify-content: center;
+    height: 4em;
     position: sticky;
     top: 0;
+    background-image: url("../images/header-bg.png");
+}
+
+
+.header-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between; 
+    gap: 8em;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.header-navigation button {
+    background-color: transparent;
+    color: white;
+    border: 0;
+    font-size: medium;
+    text-decoration: underline;
+}
+
+.header-time {
+    color: white;
 }
