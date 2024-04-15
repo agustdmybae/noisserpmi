@@ -22,3 +22,13 @@
     top: 40%;
     transform: rotate(8deg);
 }
+
+#runcat-gif {
+    position: absolute;
+    z-index: 2;
+    mix-blend-mode: lighten;
+    left: 40%;
+    top: 80%;
+    transform: rotate(8deg);
+    width: 25%
+}
