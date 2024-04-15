@@ -2,8 +2,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 #intro-bg {
-    padding-top: 20rem;
+    padding-top: 25rem;
+    z-index: 1;
+}
+
+
+
+#ice-gif {
+    position: absolute;
+    z-index: 2;
+    mix-blend-mode: lighten;
+    right: 10%;
+    top: 40%;
+    transform: rotate(8deg);
 }
