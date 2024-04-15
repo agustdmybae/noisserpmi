@@ -1,0 +1,9 @@
+.intro-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro-bg {
+    padding-top: 20rem;
+}

@@ -1,5 +1,6 @@
 
 //css
+import Intropage from './components/intropage';
 import './css/App.css';
 import './css/Header.css';
 import './css/Home.css';
@@ -19,6 +20,7 @@ function App() {
       <section className="home-page">
         <img src={require("./images/home-bg.gif")} alt="Homepage background" />
       </section>
+      <Intropage/>
     </div>
   );
 }
