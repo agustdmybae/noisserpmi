@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/noisserpmi/static/css/main.f8002355.css",
-    "main.js": "/noisserpmi/static/js/main.b7499f93.js",
+    "main.css": "/noisserpmi/static/css/main.99814efd.css",
+    "main.js": "/noisserpmi/static/js/main.84e36e16.js",
     "static/js/787.28cb0dcd.chunk.js": "/noisserpmi/static/js/787.28cb0dcd.chunk.js",
     "static/media/home-bg.gif": "/noisserpmi/static/media/home-bg.e7e25fe8d34c3166c96f.gif",
+    "static/media/runningCat.gif": "/noisserpmi/static/media/runningCat.7a5e63c19cdc1362fcba.gif",
+    "static/media/mouseLogo.gif": "/noisserpmi/static/media/mouseLogo.652a7c988d351ba175eb.gif",
+    "static/media/icecream.gif": "/noisserpmi/static/media/icecream.a055ec2c331c48aacf54.gif",
+    "static/media/demomouse.png": "/noisserpmi/static/media/demomouse.c60a3487f528f8b07513.png",
+    "static/media/home-intro.png": "/noisserpmi/static/media/home-intro.90b6bc1d1292cb9f8939.png",
     "static/media/bg.png": "/noisserpmi/static/media/bg.c4e6e7d905287274ec35.png",
     "index.html": "/noisserpmi/index.html",
-    "main.f8002355.css.map": "/noisserpmi/static/css/main.f8002355.css.map",
-    "main.b7499f93.js.map": "/noisserpmi/static/js/main.b7499f93.js.map",
+    "main.99814efd.css.map": "/noisserpmi/static/css/main.99814efd.css.map",
+    "main.84e36e16.js.map": "/noisserpmi/static/js/main.84e36e16.js.map",
     "787.28cb0dcd.chunk.js.map": "/noisserpmi/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8002355.css",
-    "static/js/main.b7499f93.js"
+    "static/css/main.99814efd.css",
+    "static/js/main.84e36e16.js"
   ]
 }
