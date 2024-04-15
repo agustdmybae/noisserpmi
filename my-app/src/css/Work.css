@@ -1,0 +1,26 @@
+.work-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url("../images/bg.png");
+}
+
+.work-title {
+    height: auto;
+    mix-blend-mode: lighten;
+}
+
+.work-content {
+    text-align: center;
+    width: 45%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+.work-img {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
