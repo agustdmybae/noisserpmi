@@ -5,6 +5,14 @@ import title3Logo from '../gif/recordLogo.gif';
 import title4Logo from '../gif/gumLogo.gif';
 
 
+/* 
+    why do we have to do mapping?
+    In JavaScript, require is a synchronous operation and it's used to load modules. 
+    It's not designed to be used with variables (like props.title in your case) to dynamically load modules or assets. 
+    This is because at the time of bundling your application, the bundler (like webpack) needs to know about all the modules and assets that need to be included in the bundle. 
+
+*/
+
 const logos = {
     mouse: title1Logo,
     car: title2Logo,

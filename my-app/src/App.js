@@ -18,6 +18,7 @@ function App() {
   }, []);
 
   const scrollToTeamPage = useCallback(() => {
+    // can also use react-scroll library for smooth scrolling
     if (teamPageRef.current) {
       teamPageRef.current.scrollIntoView({ behavior: 'smooth' });
     }
@@ -41,7 +42,7 @@ function App() {
       <div ref={workPageRef}>
         <Workpage/>
       </div>  
-      <div ref={teamPageRef}>
+      <div ref={teamPageRef}> 
         <TeamPage/>
       </div>
       <footer className="footer">
