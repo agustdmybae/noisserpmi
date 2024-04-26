@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/noisserpmi/static/css/main.99814efd.css",
-    "main.js": "/noisserpmi/static/js/main.84e36e16.js",
+    "main.css": "/noisserpmi/static/css/main.1314cfaa.css",
+    "main.js": "/noisserpmi/static/js/main.d6ad2114.js",
     "static/js/787.28cb0dcd.chunk.js": "/noisserpmi/static/js/787.28cb0dcd.chunk.js",
     "static/media/home-bg.gif": "/noisserpmi/static/media/home-bg.e7e25fe8d34c3166c96f.gif",
+    "static/media/demomouse.gif": "/noisserpmi/static/media/demomouse.d7e58e3a32014d02a7ae.gif",
+    "static/media/demorecord.gif": "/noisserpmi/static/media/demorecord.2e768aee11c88050b9b9.gif",
+    "static/media/democar.gif": "/noisserpmi/static/media/democar.342ca8fa803e10a16e7c.gif",
+    "static/media/demogum.gif": "/noisserpmi/static/media/demogum.5c924222d4eec3aeea08.gif",
+    "static/media/recordLogo.gif": "/noisserpmi/static/media/recordLogo.da1457333083105e54e4.gif",
     "static/media/runningCat.gif": "/noisserpmi/static/media/runningCat.7a5e63c19cdc1362fcba.gif",
+    "static/media/gumLogo.gif": "/noisserpmi/static/media/gumLogo.7bf51c4dab74f03c2a93.gif",
+    "static/media/carLogo.gif": "/noisserpmi/static/media/carLogo.b3177fbbfb78f50c9627.gif",
     "static/media/mouseLogo.gif": "/noisserpmi/static/media/mouseLogo.652a7c988d351ba175eb.gif",
+    "static/media/team.png": "/noisserpmi/static/media/team.859dcdaf793245f27c9b.png",
     "static/media/icecream.gif": "/noisserpmi/static/media/icecream.a055ec2c331c48aacf54.gif",
-    "static/media/demomouse.png": "/noisserpmi/static/media/demomouse.c60a3487f528f8b07513.png",
     "static/media/home-intro.png": "/noisserpmi/static/media/home-intro.90b6bc1d1292cb9f8939.png",
     "static/media/bg.png": "/noisserpmi/static/media/bg.c4e6e7d905287274ec35.png",
     "index.html": "/noisserpmi/index.html",
-    "main.99814efd.css.map": "/noisserpmi/static/css/main.99814efd.css.map",
-    "main.84e36e16.js.map": "/noisserpmi/static/js/main.84e36e16.js.map",
+    "main.1314cfaa.css.map": "/noisserpmi/static/css/main.1314cfaa.css.map",
+    "main.d6ad2114.js.map": "/noisserpmi/static/js/main.d6ad2114.js.map",
     "787.28cb0dcd.chunk.js.map": "/noisserpmi/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99814efd.css",
-    "static/js/main.84e36e16.js"
+    "static/css/main.1314cfaa.css",
+    "static/js/main.d6ad2114.js"
   ]
 }
