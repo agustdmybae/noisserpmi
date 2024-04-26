@@ -8,7 +8,7 @@ export default function Work() {
             A computer mouse is a hand-held pointing device that detects two-dimensional motion relative to a surface. 
             Touchpads and smartphone screens are used as a substitute for a mouse where desk space is scarce, which are more convenient.
             </div>
-            <img src={require("../images/demomouse.png")} alt="Work demo" className="work-img"/>
+            <img src={require("../gif/demomouse.gif")} alt="Work demo" className="work-img"/>
         </section>
     );
 }
