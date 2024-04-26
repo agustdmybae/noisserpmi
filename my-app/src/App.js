@@ -23,7 +23,6 @@ function App() {
       </section>
       <Intropage/>
       <Work/>
-      <Work/>
     </div>
   );
 }
