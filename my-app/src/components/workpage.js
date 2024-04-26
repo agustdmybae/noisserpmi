@@ -10,17 +10,17 @@ export default function Workpage() {
         {
             workId: 2,
             title: 'car',
-            content: 'In computing, a keyboard is a typewriter-style device that uses an arrangement of buttons or keys to act as mechanical levers or electronic switches. Following the decline of punch cards and paper tape, interaction via teleprinter-style keyboards became the main input method for computers.'
+            content: 'A toy car is a miniature representation of an automobile, such as a sedan, bus, or convertible. The miniature vehicles were aimed at children as playthings. Now, kids are addicted to various mobile games. They move virtual vehicles with taps instead of push and pull.'
         },
         {
             workId: 3,
             title: 'record',
-            content: 'A computer monitor is an output device that displays information in pictorial form. A monitor usually comprises a visual display, circuitry, casing, and power supply. The display device in modern monitors is typically a thin film transistor liquid crystal display (TFT-LCD) with LED backlighting.'
+            content: 'A vinyl record is an analog sound storage medium in the form of a flat disc with an inscribed, modulated spiral groove. In the past, people played music with vinyl records. However, with the invention of mp3 players and smartphones, vinyl records were replaced by music apps.'
         },
         {
             workId: 4,
             title: 'gum',
-            content: 'A headset combines a headphone with a microphone. Headsets are made with either a single-earpiece (mono) or a double-earpiece (mono to both ears or stereo). Headsets provide the equivalent functionality of a telephone handset but with hands-free operation.'
+            content: 'Bubble gum is designed to be inflated out of the mouth as a bubble. Invented by an accountant in 1928, bubble gum became highly successful and popular worldwide with its sweet flavors and entertainment. It is a fine childhood memory for many people.'
         }
     ]
     return (

@@ -1,7 +1,6 @@
 
 //css
 import Intropage from './components/intropage';
-import Work from './components/work';
 import Workpage from './components/workpage';
 import './css/App.css';
 import './css/Header.css';
