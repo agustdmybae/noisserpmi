@@ -2,3 +2,7 @@
 .App {
   background-image: url("../images/bg.png");
 }
+
+.header-navigation > button:hover {
+  cursor: pointer;
+}

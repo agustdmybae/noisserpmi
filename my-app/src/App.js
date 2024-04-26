@@ -9,12 +9,20 @@ import './css/Home.css';
 
 function App() {
   const workPageRef = useRef(null);
+  const teamPageRef = useRef(null);
 
   const scrollToWorkPage = useCallback(() => {
     if (workPageRef.current) {
       workPageRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   }, []);
+
+  const scrollToTeamPage = useCallback(() => {
+    if (teamPageRef.current) {
+      teamPageRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, []);
+
   return (
     <div className="App">
       <header className="header">
@@ -22,7 +30,7 @@ function App() {
         <div className="header-navigation">
           <button>Home</button>
           <button onClick={scrollToWorkPage}>Projects</button>
-          <button>Our Team</button>
+          <button onClick={scrollToTeamPage}>Our Team</button>
         </div>
         <p className="header-time">2023/10/5</p>
       </header>
@@ -33,7 +41,9 @@ function App() {
       <div ref={workPageRef}>
         <Workpage/>
       </div>  
-      <TeamPage/>
+      <div ref={teamPageRef}>
+        <TeamPage/>
+      </div>
     </div>
   );
 }
