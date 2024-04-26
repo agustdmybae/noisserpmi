@@ -44,6 +44,9 @@ function App() {
       <div ref={teamPageRef}>
         <TeamPage/>
       </div>
+      <footer className="footer">
+        <p>Copyright © 2023 Noisserpmi. All rights reserved.</p>
+      </footer>
     </div>
   );
 }

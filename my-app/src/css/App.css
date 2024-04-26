@@ -6,3 +6,10 @@
 .header-navigation > button:hover {
   cursor: pointer;
 }
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
