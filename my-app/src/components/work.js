@@ -1,14 +1,32 @@
 import '../css/Work.css'
+import title1Logo from '../gif/mouseLogo.gif';
+import title2Logo from '../gif/carLogo.gif';
+import title3Logo from '../gif/recordLogo.gif';
+import title4Logo from '../gif/gumLogo.gif';
 
-export default function Work() {
+
+const logos = {
+    mouse: title1Logo,
+    car: title2Logo,
+    record: title3Logo,
+    gum: title4Logo
+};
+
+const gifs = {
+    mouse: require('../gif/demomouse.gif'),
+    car: require('../gif/democar.gif'),
+    record: require('../gif/demorecord.gif'),
+    gum: require('../gif/demogum.gif')
+}
+
+export default function Work(props) {
     return (
         <section className="work-section">
-            <img src={require("../gif/mouseLogo.gif")} alt="Title GIF" className="work-title"/>
+            <img src={logos[props.title]} alt="Title GIF" className="work-title"/>
             <div className="work-content">
-            A computer mouse is a hand-held pointing device that detects two-dimensional motion relative to a surface. 
-            Touchpads and smartphone screens are used as a substitute for a mouse where desk space is scarce, which are more convenient.
+                {props.content}
             </div>
-            <img src={require("../gif/demomouse.gif")} alt="Work demo" className="work-img"/>
+            <img src={gifs[props.title]} alt="Work demo" className="work-img"/>
         </section>
     );
 }

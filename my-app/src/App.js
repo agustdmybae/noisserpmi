@@ -2,6 +2,7 @@
 //css
 import Intropage from './components/intropage';
 import Work from './components/work';
+import Workpage from './components/workpage';
 import './css/App.css';
 import './css/Header.css';
 import './css/Home.css';
@@ -22,7 +23,7 @@ function App() {
         <img src={require("./images/home-bg.gif")} alt="Homepage background" />
       </section>
       <Intropage/>
-      <Work/>
+      <Workpage/>
     </div>
   );
 }
