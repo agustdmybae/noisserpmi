@@ -1,0 +1,10 @@
+.team-page{
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/bg.png");
+}
+
+.team-image{
+    mix-blend-mode: lighten;
+    width: 90%;
+}

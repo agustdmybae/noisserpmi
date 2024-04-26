@@ -1,6 +1,7 @@
 
 //css
 import Intropage from './components/intropage';
+import TeamPage from './components/teampage';
 import Workpage from './components/workpage';
 import './css/App.css';
 import './css/Header.css';
@@ -23,6 +24,7 @@ function App() {
       </section>
       <Intropage/>
       <Workpage/>
+      <TeamPage/>
     </div>
   );
 }
